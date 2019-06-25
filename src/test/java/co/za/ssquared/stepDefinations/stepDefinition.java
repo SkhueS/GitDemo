@@ -22,6 +22,7 @@ public class stepDefinition {
     @When("User login into application with username and password")
     public void user_login_into_application_with_username_and_password() throws Throwable {
         System.out.println("log in successful....");
+
     }
 
     @Then("Home page is populated")
